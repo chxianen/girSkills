@@ -1,1 +1,1 @@
-# girSkills
+# gitSkills
