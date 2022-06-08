@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T02:52:11.603Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="19.0.2" etag="ZE9NfBoj7LNQd6kTL1-w" type="github"><diagram id="RceBVrI95sNeG2qh_7Ks">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-08T08:50:57.006Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NCuoXaGvBXNVlU7XSbq5" version="19.0.2" type="github">
+  <diagram id="RceBVrI95sNeG2qh_7Ks" name="Page-1">
+    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-2" value="YAStack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="910" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-4" target="iNRTEvt2VoGM-4yGnFAr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-4" value="DPDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="465" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-5" value="envoy_proto_project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="120" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-6" value="boringssl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="360" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-8" value="envoy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-25" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;libdpdk.a&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="510" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-26" value="fs-app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-27" value="fs-tools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-28" value="fs-examples" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="776" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-29" value="fs-strip-symbols" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="666" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="345" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-31" value="F-Stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="316" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-32" value="libevent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-33" value="event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="425" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-34" value="event_core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="425" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-35" value="event_extra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="425" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-36" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="581" y="590" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-37" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="681" y="590" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-38" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="769" y="590" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-39" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="681" y="730" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-29" target="iNRTEvt2VoGM-4yGnFAr-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654" y="680" as="sourcePoint" />
+            <mxPoint x="704" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-29" target="iNRTEvt2VoGM-4yGnFAr-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="724" y="690" as="sourcePoint" />
+            <mxPoint x="704" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-29" target="iNRTEvt2VoGM-4yGnFAr-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="724" y="770" as="sourcePoint" />
+            <mxPoint x="774" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-45" value="fs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-46" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="679" y="510" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681" y="620" as="sourcePoint" />
+            <mxPoint x="731" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-28" target="iNRTEvt2VoGM-4yGnFAr-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="646" y="630" as="sourcePoint" />
+            <mxPoint x="724" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-49" value="fs-tool提供了一些对齐freeBSD的命令行工具，比如ifconfig,netstat,top,sysctl等等。&lt;br&gt;使用方式基本与原生的命令行工具相同，唯一区别就是多了一个-p参数，&lt;br&gt;用于指定到底是对哪个进程的协议栈做分析。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="570" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-50" value="libevent编译生成三个静态库，这与原生的libevent对齐" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="581" y="350" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-51" value="fs-examples是对fs提供的示例的编译，原生fs中自带了两个示例程序，一个helloworld,一个hello_world epoll,&lt;br&gt;hello_world epoll使用ff APIs写了一个epoll的服务器端程序，hello world" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="660" width="580" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
