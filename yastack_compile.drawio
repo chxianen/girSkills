@@ -1,32 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T08:50:57.006Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NCuoXaGvBXNVlU7XSbq5" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T09:04:36.357Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FDSbYjA0l5wljflnBGxU" version="19.0.2" type="github">
   <diagram id="RceBVrI95sNeG2qh_7Ks" name="Page-1">
-    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1385" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iNRTEvt2VoGM-4yGnFAr-2" value="YAStack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="910" width="990" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-4" target="iNRTEvt2VoGM-4yGnFAr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-4" value="DPDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="465" width="190" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="iNRTEvt2VoGM-4yGnFAr-5" value="envoy_proto_project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319" y="120" width="190" height="150" as="geometry" />
+          <mxGeometry x="350" y="630" width="90" height="150" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-6" value="boringssl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="120" width="190" height="150" as="geometry" />
+          <mxGeometry x="250" y="630" width="90" height="150" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="310" width="360" height="460" as="geometry" />
+          <mxGeometry x="550" y="500" width="360" height="410" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-8" value="envoy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="700" width="190" height="150" as="geometry" />
+          <mxGeometry x="260" y="935" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-25" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;libdpdk.a&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="374" y="510" width="80" height="20" as="geometry" />
+          <mxGeometry x="460" y="675" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-26" value="fs-app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="596" y="620" width="80" height="40" as="geometry" />
@@ -41,22 +35,22 @@
           <mxGeometry x="666" y="690" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="345" width="320" height="130" as="geometry" />
+          <mxGeometry x="570" y="770" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-31" value="F-Stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="316" width="60" height="20" as="geometry" />
+          <mxGeometry x="696" y="470" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-32" value="libevent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="380" width="60" height="20" as="geometry" />
+          <mxGeometry x="690" y="805" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-33" value="event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="425" width="90" height="40" as="geometry" />
+          <mxGeometry x="580" y="850" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-34" value="event_core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="425" width="80" height="40" as="geometry" />
+          <mxGeometry x="680" y="850" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-35" value="event_extra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="425" width="100" height="40" as="geometry" />
+          <mxGeometry x="770" y="850" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iNRTEvt2VoGM-4yGnFAr-36" value="costom-target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="581" y="590" width="90" height="20" as="geometry" />
@@ -106,14 +100,53 @@
             <mxPoint x="724" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iNRTEvt2VoGM-4yGnFAr-49" value="fs-tool提供了一些对齐freeBSD的命令行工具，比如ifconfig,netstat,top,sysctl等等。&lt;br&gt;使用方式基本与原生的命令行工具相同，唯一区别就是多了一个-p参数，&lt;br&gt;用于指定到底是对哪个进程的协议栈做分析。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="930" y="570" width="450" height="50" as="geometry" />
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-49" value="fs-tool提供了一些对齐freeBSD的命令行工具，比如ifconfig,netstat,top,sysctl等等。&lt;br&gt;使用方式基本与原生的命令行工具相同，唯一区别就是多了一个-p参数，&lt;br&gt;用于指定到底是对哪个进程的协议栈做分析。其编译要依赖libfstack.a和libdpdk.a。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="715" width="450" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iNRTEvt2VoGM-4yGnFAr-50" value="libevent编译生成三个静态库，这与原生的libevent对齐" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="581" y="350" width="300" height="20" as="geometry" />
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-50" value="libevent编译生成三个静态库，这与原生的libevent对齐，只不过该libevent都经过了ff API改造，需要依赖libfstack.a" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="845" width="620" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iNRTEvt2VoGM-4yGnFAr-51" value="fs-examples是对fs提供的示例的编译，原生fs中自带了两个示例程序，一个helloworld,一个hello_world epoll,&lt;br&gt;hello_world epoll使用ff APIs写了一个epoll的服务器端程序，hello world" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="930" y="660" width="580" height="30" as="geometry" />
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-51" value="fs-examples是对fs提供的示例的编译，原生fs中自带了两个示例程序：&lt;br&gt;hello_world epoll使用ff APIs写了一个epoll的服务器端程序；&lt;br&gt;hello world使用ff APIs写了一个kqueue的服务器端程序；其编译要依赖libfstack.a和libdpdk.a。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="605" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-52" value="fs是对f-stack本身提供的代码的编译，最终被编译成静态库libfstack.a" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="570" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-53" value="fs-app从cmakelist上看和fs-example完全一样" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="675" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-55" value="fs-strip-symbols是剥离调试版本的costom target,用于将上面编译出的所有制品中的release/debug符号剥离掉。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="795" width="600" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-57" value="envoy的编译是对envoy进行了彻底的cmake化，对每个envoy子目录编译成静态库，然后最外层cmake整体链接。&lt;br&gt;除过链接envoy自身的库以外，envoy还将链接external中第三方代码的静态库（对应之前使用bazel编译时从外部拉取的依赖），&lt;br&gt;另外，envoy还会链接libfstack.a、libdpdk.a以及libevent的三个静态库，形成最终的envoy。&lt;br&gt;上述详细的详见envoy CMakeLists.txt ：https://github.com/saaras-io/yastack/blob/master/ev/source/exe/CMakeLists.txt" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="980" width="690" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-58" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-8" target="iNRTEvt2VoGM-4yGnFAr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="940" as="sourcePoint" />
+            <mxPoint x="700" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-59" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-8" target="iNRTEvt2VoGM-4yGnFAr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="940" as="sourcePoint" />
+            <mxPoint x="700" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-60" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-8" target="iNRTEvt2VoGM-4yGnFAr-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="980" as="sourcePoint" />
+            <mxPoint x="880" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-61" value="envoy_api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="630" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iNRTEvt2VoGM-4yGnFAr-62" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNRTEvt2VoGM-4yGnFAr-8" target="iNRTEvt2VoGM-4yGnFAr-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="790" as="sourcePoint" />
+            <mxPoint x="770" y="740" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
