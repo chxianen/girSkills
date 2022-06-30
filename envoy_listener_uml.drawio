@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T06:28:24.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="UxgVXphpL83JHYWaQdOb" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T01:27:33.042Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="U4dH0H2XlUH-2UITUFkl" version="20.0.3" type="github">
   <diagram id="igFPyPbJTSOQKLyrehNV" name="Page-1">
-    <mxGraphModel dx="4143" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4436" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1044,16 +1044,21 @@
             <mxPoint x="364" y="2281" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-280" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.541;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="emEyEJCBUb9SOfy1nAko-238" target="emEyEJCBUb9SOfy1nAko-29" edge="1">
+        <mxCell id="emEyEJCBUb9SOfy1nAko-280" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="emEyEJCBUb9SOfy1nAko-238" target="emEyEJCBUb9SOfy1nAko-29" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="470" y="2360" as="sourcePoint" />
             <mxPoint x="630" y="2360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-281" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;" parent="1" source="emEyEJCBUb9SOfy1nAko-240" target="emEyEJCBUb9SOfy1nAko-273" edge="1">
+        <mxCell id="emEyEJCBUb9SOfy1nAko-281" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="emEyEJCBUb9SOfy1nAko-238" target="emEyEJCBUb9SOfy1nAko-273" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="510" y="2790" as="sourcePoint" />
             <mxPoint x="505" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-47" value="&lt;b&gt;TCP face to connection, so it need can&lt;br&gt;be balanced, UDP not .&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emEyEJCBUb9SOfy1nAko-281">
+          <mxGeometry x="0.2229" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="emEyEJCBUb9SOfy1nAko-282" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="emEyEJCBUb9SOfy1nAko-238" target="emEyEJCBUb9SOfy1nAko-286" edge="1">
@@ -1155,9 +1160,6 @@
         <mxCell id="emEyEJCBUb9SOfy1nAko-315" value="newListenerWithFilterChain()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="emEyEJCBUb9SOfy1nAko-313" vertex="1">
           <mxGeometry y="34" width="210" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-316" value="&amp;nbsp;A configuration for an individual listener." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="2360" width="240" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="emEyEJCBUb9SOfy1nAko-317" value="FilterChainFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="2728" y="2378" width="210" height="90" as="geometry" />
         </mxCell>
@@ -1203,8 +1205,10 @@
             <mxPoint x="2320" y="2230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-329" value="ref all workers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2140" y="2105" width="100" height="30" as="geometry" />
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-43" value="&lt;span style=&quot;font-size: 10px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;b&gt;create / hold&amp;nbsp; all workers&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emEyEJCBUb9SOfy1nAko-328">
+          <mxGeometry x="0.2296" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="emEyEJCBUb9SOfy1nAko-331" value="a worker has a dispatcher" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1907" y="1995" width="160" height="30" as="geometry" />
@@ -1224,7 +1228,7 @@
             <mxPoint x="1827" y="2403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-341" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="emEyEJCBUb9SOfy1nAko-340" vertex="1" connectable="0">
+        <mxCell id="emEyEJCBUb9SOfy1nAko-341" value="&lt;b&gt;aggerate&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="emEyEJCBUb9SOfy1nAko-340" vertex="1" connectable="0">
           <mxGeometry x="-0.3278" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1251,11 +1255,11 @@
             <mxPoint x="1674" y="1750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emEyEJCBUb9SOfy1nAko-346" value="manage listeners through" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1463" y="2280" width="160" height="30" as="geometry" />
+        <mxCell id="emEyEJCBUb9SOfy1nAko-346" value="&lt;b&gt;manage listeners through&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="2290" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="emEyEJCBUb9SOfy1nAko-347" value="a listener interface, not the real listener handle connections .&lt;br&gt;&quot;Active&quot; means real alive listener for handling connections . dispatcher can only see this interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1665" width="540" height="40" as="geometry" />
+          <mxGeometry x="438.75" y="1658" width="540" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jgz0tXCYWjut2X1lVAxk-3" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=1.006;exitY=0.133;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="emEyEJCBUb9SOfy1nAko-243" target="emEyEJCBUb9SOfy1nAko-247">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1269,7 +1273,7 @@
             <mxPoint x="1330" y="2240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jgz0tXCYWjut2X1lVAxk-7" value="a worker has a connection handler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jgz0tXCYWjut2X1lVAxk-4">
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-7" value="&lt;b&gt;a worker has a connection handler&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jgz0tXCYWjut2X1lVAxk-4">
           <mxGeometry x="-0.0646" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1406,6 +1410,39 @@
             <mxPoint x="1270" y="1900" as="sourcePoint" />
             <mxPoint x="1430" y="1900" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-48" value="RebalancedSocket" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1058" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-49" value="&lt;b&gt;socket used for post to other dispatchers&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="1028" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-53" value="ListenerConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="1621" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="jgz0tXCYWjut2X1lVAxk-53">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-56" value="ListenerImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="1731" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="jgz0tXCYWjut2X1lVAxk-56">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-58" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jgz0tXCYWjut2X1lVAxk-56" target="jgz0tXCYWjut2X1lVAxk-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2945" y="1811" as="sourcePoint" />
+            <mxPoint x="3105" y="1811" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-59" value="&lt;b&gt;Maps proto config to runtime config for a listener with a network filter chain.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="1701" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-60" value="&lt;b&gt;A configuration for an individual listener.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="2358" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jgz0tXCYWjut2X1lVAxk-61" value="&lt;b&gt;attention: not a real listener, just a shell of a listener，described by config. like a config dto&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2443" y="2638" width="540" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
